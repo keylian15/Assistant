@@ -1,0 +1,22 @@
+{
+  "settings": {
+    "group" : "BUT3-TD1-TPA",
+    "refresh_time": ["08:00"], 
+    "on_unknown_subject": "do_nothing",
+    "create_folder_if_missing": true
+  },
+  "subjects": {
+    "Informatique": {
+      "workspace": "C:/Cours/Informatique",
+      "actions": [{ "type": "vscode" }]
+    },
+    "Node": {
+      "workspace": "C:/Cours/Node",
+      "actions": [
+        { "type": "vscode" },
+        { "type": "command", "cmd": "npm run dev" },
+        { "type": "browser", "url": "http://localhost:3000" }
+      ]
+    }
+  }
+}

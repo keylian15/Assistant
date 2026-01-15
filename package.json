@@ -1,0 +1,28 @@
+{
+  "name": "assistant",
+  "version": "1.0.0",
+  "description": "Application d'automatisation locale qui lance vos outils de travail (VS Code, commandes, applications...) en fonction de votre emploi du temps universitaire (ADE iCalendar).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/main.js",
+    "dev": "node --watch src/main.js",
+    "format": "prettier --write \"src/**/*.js\""
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "imports": {
+    "#utils/*": "./src/utils/*",
+    "#edt/*": "./src/edt/*",
+    "#system/*": "./src/system/*"
+  },
+  "dependencies": {
+    "node-ical": "^0.23.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.0"
+  }
+}
