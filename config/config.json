@@ -3,7 +3,8 @@
     "group" : "BUT3-TD1-TPA",
     "refresh_time": ["08:00"], 
     "on_unknown_subject": "do_nothing",
-    "create_folder_if_missing": true
+    "create_folder_if_missing": true,
+    "parent_folder": "C:/Users/keyli/Documents/IUT/Assistant"
   },
   "subjects": {
     "Informatique": {
